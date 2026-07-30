@@ -1,7 +1,7 @@
 # Sanvika Handmades
 
 Sanvika Handmades is a static marketing website for a small handmade-crafts business, showcasing hair accessories, rakhis, jewellery, friendship bands, lotus hairpins and custom orders. It includes a landing page (hero, about, products, gallery, testimonials, contact form) and a lightweight admin area for viewing a mock orders dashboard.
-
+customised thread bangles .
 ## Tech Stack
 
 - Plain HTML, CSS and JavaScript (no build step, no framework)
