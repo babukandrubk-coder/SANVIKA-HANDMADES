@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login | Sanvika Handmades</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-card">
+      <img src="../assets/logo.png" alt="Sanvika Handmades logo">
+      <h1>Admin Login</h1>
+      <p class="sub">Sign in to manage Sanvika Handmades</p>
+      <form id="loginForm">
+        <label>Username
+          <input type="text" name="username" autocomplete="username" required>
+        </label>
+        <label>Password
+          <input type="password" name="password" autocomplete="current-password" required>
+        </label>
+        <button type="submit" class="login-btn">Log In</button>
+        <p class="login-error" id="loginError"></p>
+      </form>
+      <p class="login-hint">Demo credentials: admin / sanvika123</p>
+    </div>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
